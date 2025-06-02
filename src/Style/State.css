@@ -1,0 +1,88 @@
+.count
+{
+    background-color: bisque;
+    width: 25%;
+    padding: 10px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 450px;
+    border-radius: 15px;
+
+}
+ .count p
+ {
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+    font-weight:900;
+ }
+
+ .count button
+ {
+    padding: 15px;
+    margin: 5px;
+ }
+
+ .Increment
+ {
+    border-radius: 5px;
+    border: 1px solid;
+    background-color: rgb(27, 180, 7);
+    color:aliceblue;
+    cursor: pointer;
+ }
+
+ .Increment:hover
+ {
+    border: 1px solid rgb(27, 180, 7);
+    background-color: aliceblue;
+    color:rgb(27, 180, 7);
+ }
+
+
+ .Decrement
+ {
+    border-radius: 5px;
+    border: 1px solid;
+    background-color: rgb(231, 8, 8);
+    color:aliceblue;
+    cursor: pointer;
+ }
+
+ .Decrement:hover
+ {
+    border: 1px solid rgb(231, 8, 8);
+    background-color: aliceblue;
+    color:rgb(231, 8, 8);
+ }
+
+ .Reset
+ {
+    border-radius: 5px;
+    border: 1px solid ;
+    background-color: rgb(68, 67, 67);
+    color: aliceblue;
+    cursor: pointer;
+ }
+
+ .Reset:hover
+ {
+    border: 1px solid rgb(68, 67, 67);
+    background-color: aliceblue;
+    color:rgb(68, 67, 67);
+ }
+
+ .color-picker
+ {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-top: 30px;
+ }
+
+ .color-picker input
+ {
+   border-radius: 50%;
+   width: 25px;
+   height: 25px;
+   border: none;
+ }
